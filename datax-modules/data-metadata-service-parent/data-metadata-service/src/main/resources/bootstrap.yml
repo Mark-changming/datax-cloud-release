@@ -1,0 +1,20 @@
+server:
+  port: 8820
+
+spring:
+  application:
+    name: datax-service-data-metadata
+  profiles:
+    active: dev
+  cloud:
+    config:
+      fail-fast: true
+      name: ${spring.application.name}
+      profile: ${spring.profiles.active}
+      discovery:
+        enabled: true
+        service-id: datax-config
+    nacos:
+      discovery:
+        # nacos服务发现地址, 多个地址使用逗号隔开, 注意: 不用添加http(s)://
+        server-addr: localhost:8848

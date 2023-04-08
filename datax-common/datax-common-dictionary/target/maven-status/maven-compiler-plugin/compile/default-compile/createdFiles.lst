@@ -1,0 +1,4 @@
+cn\datax\common\dictionary\config\DictAnalysis.class
+cn\datax\common\dictionary\utils\DictUtil.class
+cn\datax\common\dictionary\annotation\DictAop.class
+cn\datax\common\dictionary\utils\ConfigUtil.class

@@ -1,0 +1,4 @@
+cn\datax\common\redis\config\RedisConfig.class
+cn\datax\common\redis\service\DistributedLock.class
+cn\datax\common\redis\service\RedisService.class
+cn\datax\common\redis\serializer\DataRedisSerializer.class

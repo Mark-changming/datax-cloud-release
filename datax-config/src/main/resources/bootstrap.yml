@@ -1,0 +1,30 @@
+server:
+  port: 8611
+
+spring:
+  application:
+    name: datax-config
+  profiles:
+    active: native
+    # 配置中心
+    cloud:
+      config:
+        server:
+          native:
+            search-locations: classpath:/config/
+      nacos:
+        discovery:
+          # nacos服务发现地址, 多个地址使用逗号隔开, 注意: 不用添加http(s)://
+          server-addr: localhost:8848
+
+
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+logging:
+  level:
+    com.data.cloud: info

@@ -1,0 +1,44 @@
+# Spring 相关
+spring:
+  mvc:
+    throw-exception-if-no-handler-found: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+# feign 配置
+feign:
+  okhttp:
+    enabled: true
+  httpclient:
+    enabled: false
+  client:
+    config:
+      default:
+        connectTimeout: 10000
+        readTimeout: 10000
+  compression:
+    request:
+      enabled: true
+    response:
+      enabled: true
+  sentinel:
+    enabled: true #开启openFeign对sentinel的整合
+
+ribbon:
+  OkToRetryOnAllOperations: false #对所有操作请求都进行重试,默认false
+  ReadTimeout: 10000 #负载均衡超时时间，默认值5000
+  ConnectTimeout: 2000 #ribbon请求连接的超时时间，默认值2000
+  MaxAutoRetries: 0 #对当前实例的重试次数，默认0
+  MaxAutoRetriesNextServer: 1 #对切换实例的重试次数，默认1

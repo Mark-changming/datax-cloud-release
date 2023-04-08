@@ -1,0 +1,8 @@
+D:\workspace\datax-cloud-release\datax-common\datax-common-mybatis\src\main\java\cn\datax\common\mybatis\interceptor\DataScopeInterceptor.java
+D:\workspace\datax-cloud-release\datax-common\datax-common-mybatis\src\main\java\cn\datax\common\mybatis\config\DataMetaObjectHandler.java
+D:\workspace\datax-cloud-release\datax-common\datax-common-mybatis\src\main\java\cn\datax\common\mybatis\config\DataBatisPlusConfig.java
+D:\workspace\datax-cloud-release\datax-common\datax-common-mybatis\src\main\java\cn\datax\common\mybatis\injector\methods\SelectPageDataScope.java
+D:\workspace\datax-cloud-release\datax-common\datax-common-mybatis\src\main\java\cn\datax\common\mybatis\annotation\DataScopeAop.java
+D:\workspace\datax-cloud-release\datax-common\datax-common-mybatis\src\main\java\cn\datax\common\mybatis\aspectj\DataScopeAspect.java
+D:\workspace\datax-cloud-release\datax-common\datax-common-mybatis\src\main\java\cn\datax\common\mybatis\injector\DataLogicSqlInjector.java
+D:\workspace\datax-cloud-release\datax-common\datax-common-mybatis\src\main\java\cn\datax\common\mybatis\injector\methods\SelectListDataScope.java

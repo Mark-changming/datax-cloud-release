@@ -1,0 +1,8 @@
+cn\datax\common\mybatis\injector\methods\SelectPageDataScope.class
+cn\datax\common\mybatis\config\DataMetaObjectHandler.class
+cn\datax\common\mybatis\injector\DataLogicSqlInjector.class
+cn\datax\common\mybatis\config\DataBatisPlusConfig.class
+cn\datax\common\mybatis\injector\methods\SelectListDataScope.class
+cn\datax\common\mybatis\annotation\DataScopeAop.class
+cn\datax\common\mybatis\aspectj\DataScopeAspect.class
+cn\datax\common\mybatis\interceptor\DataScopeInterceptor.class
